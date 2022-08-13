@@ -1,0 +1,2347 @@
+{
+  "populations": [
+    {
+      "title": "Albert Odyssey: Legend of Eldean",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 5,
+      "grade_96": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_65_below": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Andretti Racing",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Area 51",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 2,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Astal",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_94": [
+        {
+          "b_plus": 2
+        },
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Baku Baku",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Bases Loaded '96: Double Header",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Batman Forever: The Arcade Game",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 1,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Battle Arena Toshinden Remix",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 1,
+      "grade_94": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Battle Arena Toshinden URA Ultimate Revenge Attack",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_75": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Battle Stations",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Black Dawn",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_80": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Blast Chamber",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Blazing Dragons",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 5,
+      "grade_98": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 2
+        }
+      ],
+      "grade_90": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Bottom of the 9th",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Burning Rangers",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_96": [
+        {
+          "a_plus_plus": 2
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Bust-A-Move 2: Arcade Edition",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_96": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 2
+        }
+      ]
+    },
+    {
+      "title": "Bust-A-Move 3",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 11,
+      "grade_98": [
+        {
+          "a_plus_plus": 5
+        },
+        {
+          "a_plus": 4
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Clockwork Knight",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_96": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Clockwork Knight 2",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 2,
+      "grade_98": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Command & Conquer",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_80": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Corpse Killer: Graveyard Edition",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 3
+        }
+      ]
+    },
+    {
+      "title": "Courier Crisis",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Criticom",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Croc: Legend of the Gobbos",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Crusader: No Remorse",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 2
+        }
+      ]
+    },
+    {
+      "title": "Crypt Killer",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Cyber Speedway",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_90": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Cyber Troopers Virtual-On: Operation Moongate",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 1,
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Cyberia",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Darius Gaiden",
+      "state": 0,
+      "box_variant": "*Assembled in Mexico",
+      "total": 1,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Daytona USA",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Daytona USA: C.C.E. Net Link Edition",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Die Hard Arcade",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 2,
+      "grade_98": [
+        {
+          "a_plus": 2
+        }
+      ]
+    },
+    {
+      "title": "Die Hard Trilogy",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_65_below": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Doom",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 17,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 4
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 4
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus": 2
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_70": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Double Switch",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Dracula X: Nocturne in the Moonlight",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 1,
+      "grade_96": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Dragon Force",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "DragonHeart: Fire & Steel",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 14,
+      "grade_98": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 6
+        },
+        {
+          "a": 2
+        }
+      ],
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Duke Nukem 3D",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Earthworm Jim 2",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_65_below": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "FIFA Soccer '97",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_96": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "FIFA: Road to World Cup 98",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Fighters Megamix",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Fighting Vipers",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Frank Thomas Big Hurt Baseball",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "b": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Galaxy Fight",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Ghen War",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Golden Axe: The Duel",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Guardian Heroes",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Hang-On GP",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a_plus_plus": 4
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Heir of Zendor: The Legend and the Land",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 19,
+      "grade_98": [
+        {
+          "a_plus_plus": 7
+        },
+        {
+          "a_plus": 8
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 3
+        }
+      ]
+    },
+    {
+      "title": "Hexen: Beyond Heretic",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Impact Racing",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_80": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "In the Hunt",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_94": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Iron Man X-O Manowar in Heavy Metal",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_96": [
+        {
+          "b": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Iron Storm",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_90": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Krazy Ivan",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 1,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Loaded",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Lunacy",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Madden NFL 97",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_65": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Magic Knight Rayearth",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 11,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 2
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b": 2
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Mansion of Hidden Souls",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Manx TT SuperBike",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Marvel Super Heroes",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Mass Destruction",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Mega Man X4",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Mortal Kombat Trilogy",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Myst",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Mystaria: The Realms of Lore",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "NBA Action '98",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 39,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 8
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus_plus": 4
+        },
+        {
+          "a_plus": 2
+        },
+        {
+          "a": 2
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 3
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b": 1
+        },
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 3
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "NBA Jam Extreme",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 5,
+      "grade_96": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "NFL '97",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Night Warriors: Darkstalkers' Revenge",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_98": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Nights into Dreams...",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 5,
+      "grade_96": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "c_plus": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "b_plus": 2
+        }
+      ]
+    },
+    {
+      "title": "Nights into Dreams...",
+      "state": 0,
+      "box_variant": "*No Country, NFR (Controller Pack-In)",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Panzer Dragoon",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Panzer Dragoon II Zwei",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Panzer Dragoon Saga",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 8,
+      "grade_96": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_70": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Powerslave",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Quake",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Quarterback Attack with Mike Ditka",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Resident Evil",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 2
+        },
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 2
+        }
+      ]
+    },
+    {
+      "title": "Revolution X",
+      "state": 0,
+      "box_variant": "*Assembled in Mexico",
+      "total": 1,
+      "grade_90": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Robotica",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_92": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Romance of the Three Kingdoms IV: Wall of Fire",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_90": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Saturn Bomberman",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_94": [
+        {
+          "a_plus_plus": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Scorcher",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_98": [
+        {
+          "a_plus": 2
+        }
+      ]
+    },
+    {
+      "title": "Scud: The Disposable Assassin",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 2,
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Sega Ages",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Sega Rally Championship",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Sega Touring Car Championship",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 16,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus_plus": 9
+        },
+        {
+          "a_plus": 2
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Shining Force III",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 7,
+      "grade_98": [
+        {
+          "a_plus": 3
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus": 3
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Shining Wisdom",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_96": [
+        {
+          "b": 1
+        },
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Shining the Holy Ark",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Sky Target",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 4,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Slam 'N Jam '96 featuring Magic & Kareem",
+      "state": 0,
+      "box_variant": "*Made in USA, Signature Edition Sticker",
+      "total": 1,
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Sonic 3D Blast",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 2,
+      "grade_96": [
+        {
+          "a_plus_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Sonic Jam",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Sonic R",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_98": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Soviet Strike",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Space Jam",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Space-Hulk: Vengeance of the Blood Angels",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 22,
+      "grade_98": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus_plus": 8
+        },
+        {
+          "a_plus": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "b": 1
+        },
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 4
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Star Fighter",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_96": [
+        {
+          "b_plus": 2
+        },
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter Alpha 2",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 10,
+      "grade_98": [
+        {
+          "a": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 2
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 2
+        }
+      ],
+      "grade_75": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter Alpha: Warriors' Dreams",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter Collection",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter: Real Battle on Film",
+      "state": 0,
+      "box_variant": "*Made in Japan",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter: The Movie",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 3,
+      "grade_96": [
+        {
+          "a_plus": 2
+        },
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Super Puzzle Fighter II Turbo",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "The Horde",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_96": [
+        {
+          "b": 1
+        }
+      ]
+    },
+    {
+      "title": "The House of the Dead",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_92": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "The Incredible Hulk: The Pantheon Saga",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 10,
+      "grade_98": [
+        {
+          "c_plus": 1
+        },
+        {
+          "a": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "The Lost World: Jurassic Park",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 17,
+      "grade_98": [
+        {
+          "a_plus_plus": 2
+        },
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 4
+        },
+        {
+          "a_plus": 2
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 2
+        }
+      ],
+      "grade_92": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_70": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Theme Park",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_80": [
+        {
+          "c_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Three Dirty Dwarves",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 2,
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Thunderstrike 2",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Tomb Raider",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 17,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 2
+        }
+      ],
+      "grade_96": [
+        {
+          "c_plus": 1
+        },
+        {
+          "b_plus": 1
+        },
+        {
+          "b": 1
+        },
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_92": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "c": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_70": [
+        {
+          "b": 1
+        }
+      ],
+      "grade_65": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "Ultimate Mortal Kombat 3",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 3
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Virtua Cop",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 28,
+      "grade_98": [
+        {
+          "b_plus": 2
+        },
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a_plus": 2
+        },
+        {
+          "a": 3
+        }
+      ],
+      "grade_96": [
+        {
+          "b_plus": 6
+        },
+        {
+          "a": 7
+        }
+      ],
+      "grade_94": [
+        {
+          "b_plus": 2
+        }
+      ],
+      "grade_92": [
+        {
+          "b_plus": 1
+        }
+      ],
+      "grade_90": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a": 2
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Virtua Fighter 2",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 3,
+      "grade_96": [
+        {
+          "b_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Virtua Fighter 2 / Virtua Cop / Daytona USA",
+      "state": 0,
+      "box_variant": "*Printed in Canada, NFR",
+      "total": 4,
+      "grade_94": [
+        {
+          "a_plus_plus": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "a_plus_plus": 1
+        }
+      ],
+      "grade_80": [
+        {
+          "a_plus": 1
+        }
+      ],
+      "grade_75": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "Virtual Open Tennis",
+      "state": 0,
+      "box_variant": "*Assembled in Mexico",
+      "total": 2,
+      "grade_98": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "WarCraft II: The Dark Saga",
+      "state": 0,
+      "box_variant": "*Made in USA",
+      "total": 6,
+      "grade_98": [
+        {
+          "a_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_96": [
+        {
+          "a": 1
+        }
+      ],
+      "grade_94": [
+        {
+          "a_plus_plus": 1
+        },
+        {
+          "a": 1
+        }
+      ],
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "World Series Baseball",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 1,
+      "grade_90": [
+        {
+          "a": 1
+        }
+      ]
+    },
+    {
+      "title": "World Series Baseball 2",
+      "state": 0,
+      "box_variant": "*No Country",
+      "total": 1,
+      "grade_98": [
+        {
+          "a_plus": 1
+        }
+      ]
+    },
+    {
+      "title": "X-Men: Children of the Atom",
+      "state": 0,
+      "box_variant": "*Assembled in Mexico",
+      "total": 1,
+      "grade_85": [
+        {
+          "b_plus": 1
+        }
+      ]
+    }
+  ]
+}
