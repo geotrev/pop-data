@@ -36,6 +36,15 @@ const FIELD_NAMES = {
   grade_below_65: "grade_below_65",
 }
 
+function sortObjEntries(obj) {
+  return Object.keys(obj)
+    .sort()
+    .reduce(function (result, key) {
+      result[key] = obj[key]
+      return result
+    }, {})
+}
+
 function getPops() {
   let output = ""
 
@@ -87,21 +96,22 @@ function getPops() {
       .sort()
       .reduce((acc, key) => {
         if (key === "10") return acc
-        return { ...acc, [key]: grades[key] }
+        return { ...acc, [key]: sortObjEntries(grades[key]) }
       }, {})
 
     output += `${JSON.stringify(sortedGrades, null, 2)}\n\n`
 
-    // get seal count totals
-    let totals = {}
+    // get combined seal count totals
+    let unsortedTotals = {}
 
     // correct "10" grade
     for (const boxGrade in grades) {
       for (const sealGrade in grades[boxGrade]) {
-        totals[sealGrade] = totals[sealGrade] || 0
-        totals[sealGrade] += grades[boxGrade][sealGrade]
+        unsortedTotals[sealGrade] = unsortedTotals[sealGrade] || 0
+        unsortedTotals[sealGrade] += grades[boxGrade][sealGrade]
       }
     }
+    const totals = sortObjEntries(unsortedTotals)
 
     output += `Totals:\n${JSON.stringify(totals, null, 2)}\n`
 
