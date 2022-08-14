@@ -95,7 +95,6 @@ function getPops() {
     let sortedGrades = Object.keys(grades)
       .sort()
       .reduce((acc, key) => {
-        if (key === "10") return acc
         return { ...acc, [key]: sortObjEntries(grades[key]) }
       }, {})
 
