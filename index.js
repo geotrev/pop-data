@@ -1,60 +1,63 @@
 const fs = require("fs")
+const path = require("path")
 
-const systems = {
-  nes: require("./pop-nes.json").populations,
-  super_nes: require("./pop-snes.json").populations,
-  n64: require("./pop-n64.json").populations,
-  game_boy: require("./pop-gb.json").populations,
-  game_boy_color: require("./pop-gbc.json").populations,
-  game_boy_advance: require("./pop-gba.json").populations,
-  ps1: require("./pop-ps1.json").populations,
-  sega_cd: require("./pop-cd.json").populations,
-  sega_saturn: require("./pop-saturn.json").populations,
-  sega_genesis: require("./pop-genesis.json").populations,
-  sega_dreamcast: require("./pop-dreamcast.json").populations,
-  turbografx_16: require("./pop-turbografx16.json").populations,
-}
+async function fetchWithAgent(name) {
+  const res = await fetch(
+    `https://www.watagames.com/populations/${name}/pop_report_${name}.json`,
+    {
+      credentials: "omit",
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0",
+        Accept: "*/*",
+        "Accept-Language": "en-US,en;q=0.5",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+      },
+      referrer: `https://www.watagames.com/populations/${name}/index.html`,
+      method: "GET",
+      mode: "cors",
+    }
+  )
 
-const FIELD_NAMES = {
-  title: "title",
-  state: "state",
-  box_variant: "box_variant",
-  total: "total",
-  grade_gen: "grade_gen",
-  grade_pro: "grade_pro",
-  grade_100: "grade_100",
-  grade_98: "grade_98",
-  grade_96: "grade_96",
-  grade_94: "grade_94",
-  grade_92: "grade_92",
-  grade_90: "grade_90",
-  grade_85: "grade_85",
-  grade_80: "grade_80",
-  grade_75: "grade_75",
-  grade_70: "grade_70",
-  grade_65: "grade_65",
-  grade_below_65: "grade_below_65",
+  const data = await res.json()
+
+  return data.populations
 }
 
 function sortObjEntries(obj) {
   return Object.keys(obj)
     .sort()
-    .reduce(function (result, key) {
-      result[key] = obj[key]
-      return result
-    }, {})
+    .reduce((result, key) => ({ ...result, [key]: obj[key] }), {})
 }
 
-function getPops() {
-  let output = ""
+async function getPops() {
+  const systems = {
+    nes: await fetchWithAgent("nes"),
+    snes: await fetchWithAgent("snes"),
+    nintendo_64: await fetchWithAgent("n64"),
+    game_boy: await fetchWithAgent("gb"),
+    game_boy_color: await fetchWithAgent("gbc"),
+    game_boy_advance: await fetchWithAgent("gba"),
+    ps1: await fetchWithAgent("ps1"),
+    sega_cd: await fetchWithAgent("sega_cd"),
+    sega_saturn: await fetchWithAgent("saturn"),
+    sega_genesis: await fetchWithAgent("genesis"),
+    sega_dreamcast: await fetchWithAgent("dreamcast"),
+    turbografx16: await fetchWithAgent("turbografx16"),
+  }
+
+  let output = {}
 
   for (const system in systems) {
     const games = systems[system]
-    output += `\n${system
+    const systemName = system
       .split("_")
       .map((word) => word[0].toUpperCase() + word.slice(1))
-      .join(" ")}\n\n`
-    let grades = {}
+      .join(" ")
+    output[systemName] = {}
 
     for (const game of games) {
       for (const dataKey in game) {
@@ -66,7 +69,8 @@ function getPops() {
             .join(".")
             .replace("._", "_and_below")
 
-          grades[boxGradeKey] = grades[boxGradeKey] || {}
+          output[systemName][boxGradeKey] =
+            output[systemName][boxGradeKey] || {}
           const gradeList = game[dataKey]
 
           for (const gradeEntry of gradeList) {
@@ -74,10 +78,10 @@ function getPops() {
               const formattedSealGradeKey = sealGradeKey
                 .replace(/_plus/g, "+")
                 .toUpperCase()
-              if (!grades[boxGradeKey][formattedSealGradeKey]) {
-                grades[boxGradeKey][formattedSealGradeKey] = 0
+              if (!output[systemName][boxGradeKey][formattedSealGradeKey]) {
+                output[systemName][boxGradeKey][formattedSealGradeKey] = 0
               }
-              grades[boxGradeKey][formattedSealGradeKey] +=
+              output[systemName][boxGradeKey][formattedSealGradeKey] +=
                 gradeEntry[sealGradeKey]
             }
           }
@@ -86,38 +90,41 @@ function getPops() {
     }
 
     // correct "10" key
-    if (grades["1.0.0"]) {
-      grades["10"] = grades["1.0.0"]
-      delete grades["1.0.0"]
+    if (output[systemName]["1.0.0"]) {
+      output[systemName]["10"] = output[systemName]["1.0.0"]
+      delete output[systemName]["1.0.0"]
     }
 
     // Sort everything
-    let sortedGrades = Object.keys(grades)
+    let sortedGrades = Object.keys(output[systemName])
       .sort()
       .reduce((acc, key) => {
-        return { ...acc, [key]: sortObjEntries(grades[key]) }
+        return { ...acc, [key]: sortObjEntries(output[systemName][key]) }
       }, {})
-
-    output += `${JSON.stringify(sortedGrades, null, 2)}\n\n`
 
     // get combined seal count totals
     let unsortedTotals = {}
 
     // correct "10" grade
-    for (const boxGrade in grades) {
-      for (const sealGrade in grades[boxGrade]) {
-        unsortedTotals[sealGrade] = unsortedTotals[sealGrade] || 0
-        unsortedTotals[sealGrade] += grades[boxGrade][sealGrade]
+    for (const boxGrade in output[systemName]) {
+      const sealGrades = output[systemName][boxGrade]
+      for (const sealGrade in sealGrades) {
+        if (!unsortedTotals[sealGrade]) {
+          unsortedTotals[sealGrade] = 0
+        }
+        unsortedTotals[sealGrade] += output[systemName][boxGrade][sealGrade]
       }
     }
     const totals = sortObjEntries(unsortedTotals)
 
-    output += `Totals:\n${JSON.stringify(totals, null, 2)}\n`
-
-    output += `\n=================================\n`
+    output[systemName].totals = totals
   }
 
-  fs.writeFileSync("./content.txt", output, "utf8")
+  fs.writeFileSync(
+    path.resolve(process.cwd(), "out.json"),
+    JSON.stringify(output, null, 2),
+    "utf8"
+  )
 }
 
 getPops()
