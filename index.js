@@ -120,6 +120,14 @@ async function getPops() {
     output[systemName].totals = totals
   }
 
+  output.totals = Object.keys(output).reduce((acc, system) => {
+    for (const sealGrade in output[system].totals) {
+      acc[sealGrade] = acc[sealGrade] || 0
+      acc[sealGrade] += output[system].totals[sealGrade]
+    }
+    return acc
+  }, {})
+
   fs.writeFileSync(
     path.resolve(process.cwd(), "out.json"),
     JSON.stringify(output, null, 2),
