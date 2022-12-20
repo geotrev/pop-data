@@ -118,6 +118,7 @@ async function getPops() {
       }, {})
 
     // get combined seal count totals
+
     let unsortedTotals = {}
 
     // correct "10" grade
@@ -132,13 +133,15 @@ async function getPops() {
     }
     const totals = sortObjEntries(unsortedTotals)
 
-    output[systemName].totals = totals
+    output[systemName].sealTotals = totals
+
+    // get combined box count totals
   }
 
-  output.totals = Object.keys(output).reduce((acc, system) => {
-    for (const sealGrade in output[system].totals) {
+  output.sealTotals = Object.keys(output).reduce((acc, system) => {
+    for (const sealGrade in output[system].sealTotals) {
       acc[sealGrade] = acc[sealGrade] || 0
-      acc[sealGrade] += output[system].totals[sealGrade]
+      acc[sealGrade] += output[system].sealTotals[sealGrade]
     }
     return acc
   }, {})
