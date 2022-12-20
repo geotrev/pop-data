@@ -3,7 +3,7 @@ const path = require("path")
 
 async function fetchWithAgent(name) {
   const res = await fetch(
-    `https://www.watagames.com/populations/${name}/pop_report_${name}.json`,
+    `https://www.watagames.com/populations/${name}/pop_report_${name}_sealed.json`,
     {
       credentials: "omit",
       headers: {
@@ -35,18 +35,33 @@ function sortObjEntries(obj) {
 
 async function getPops() {
   const systems = {
-    nes: await fetchWithAgent("nes"),
-    snes: await fetchWithAgent("snes"),
-    nintendo_64: await fetchWithAgent("n64"),
-    game_boy: await fetchWithAgent("gb"),
-    game_boy_color: await fetchWithAgent("gbc"),
-    game_boy_advance: await fetchWithAgent("gba"),
-    ps1: await fetchWithAgent("ps1"),
-    sega_cd: await fetchWithAgent("sega_cd"),
-    sega_saturn: await fetchWithAgent("saturn"),
-    sega_genesis: await fetchWithAgent("genesis"),
-    sega_dreamcast: await fetchWithAgent("dreamcast"),
+    2600: await fetchWithAgent("2600"),
+    5200: await fetchWithAgent("5200"),
+    7800: await fetchWithAgent("7800"),
+    colecovision: await fetchWithAgent("colecovision"),
+    gamecube: await fetchWithAgent("gamecube"),
     turbografx16: await fetchWithAgent("turbografx16"),
+    turbografxcd: await fetchWithAgent("turbografxcd"),
+    n64: await fetchWithAgent("n64"),
+    nes: await fetchWithAgent("nes"),
+    gb: await fetchWithAgent("gb"),
+    gbc: await fetchWithAgent("gbc"),
+    gba: await fetchWithAgent("gba"),
+    intellivision: await fetchWithAgent("intellivision"),
+    virtual_boy: await fetchWithAgent("virtual_boy"),
+    wii: await fetchWithAgent("wii"),
+    wii_u: await fetchWithAgent("wii_u"),
+    snes: await fetchWithAgent("snes"),
+    sega_cd: await fetchWithAgent("sega_cd"),
+    dreamcast: await fetchWithAgent("dreamcast"),
+    genesis: await fetchWithAgent("genesis"),
+    saturn: await fetchWithAgent("saturn"),
+    sms: await fetchWithAgent("sms"),
+    "32x": await fetchWithAgent("32x"),
+    ps1: await fetchWithAgent("ps1"),
+    ps2: await fetchWithAgent("ps2"),
+    xbox: await fetchWithAgent("xbox"),
+    xbox_360: await fetchWithAgent("xbox_360"),
   }
 
   let output = {}
@@ -67,7 +82,7 @@ async function getPops() {
             .replace("_below", "_")
             .split("")
             .join(".")
-            .replace("._", "_and_below")
+            .replace("._", "_below")
 
           output[systemName][boxGradeKey] =
             output[systemName][boxGradeKey] || {}
@@ -96,7 +111,7 @@ async function getPops() {
     }
 
     // Sort everything
-    let sortedGrades = Object.keys(output[systemName])
+    output[systemName] = Object.keys(output[systemName])
       .sort()
       .reduce((acc, key) => {
         return { ...acc, [key]: sortObjEntries(output[systemName][key]) }
