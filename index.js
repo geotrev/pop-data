@@ -76,6 +76,7 @@ async function getPops() {
 
     for (const game of games) {
       for (const dataKey in game) {
+        // Look for the `grade_` keys and compile their value outputs.
         if (dataKey.startsWith("grade_")) {
           const boxGradeKey = dataKey
             .replace("grade_", "")
@@ -84,19 +85,33 @@ async function getPops() {
             .join(".")
             .replace("._", "_below")
 
+          // add box grade to output
           output[systemName][boxGradeKey] =
             output[systemName][boxGradeKey] || {}
+          // init box grade count total hash, if it doesn't exist
+          output[systemName].boxTotals = output[systemName].boxTotals || {}
+          // init box grade count total for current box grade, if it doesn't exist
+          output[systemName].boxTotals[boxGradeKey] =
+            output[systemName].boxTotals[boxGradeKey] || 0
+
+          // get the game list
           const gradeList = game[dataKey]
 
+          // iterate through each of the grades and count them up
           for (const gradeEntry of gradeList) {
             for (const sealGradeKey in gradeEntry) {
               const formattedSealGradeKey = sealGradeKey
                 .replace(/_plus/g, "+")
                 .toUpperCase()
+
+              // init the seal grade total if there is none
               if (!output[systemName][boxGradeKey][formattedSealGradeKey]) {
                 output[systemName][boxGradeKey][formattedSealGradeKey] = 0
               }
+
               output[systemName][boxGradeKey][formattedSealGradeKey] +=
+                gradeEntry[sealGradeKey]
+              output[systemName].boxTotals[boxGradeKey] +=
                 gradeEntry[sealGradeKey]
             }
           }
@@ -108,6 +123,10 @@ async function getPops() {
     if (output[systemName]["1.0.0"]) {
       output[systemName]["10"] = output[systemName]["1.0.0"]
       delete output[systemName]["1.0.0"]
+    }
+    if (output[systemName].boxTotals["1.0.0"]) {
+      output[systemName].boxTotals["10"] = output[systemName].boxTotals["1.0.0"]
+      delete output[systemName].boxTotals["1.0.0"]
     }
 
     // Sort everything
@@ -123,6 +142,9 @@ async function getPops() {
 
     // correct "10" grade
     for (const boxGrade in output[systemName]) {
+      // skip boxTotals!
+      if (boxGrade === "boxTotals") continue
+
       const sealGrades = output[systemName][boxGrade]
       for (const sealGrade in sealGrades) {
         if (!unsortedTotals[sealGrade]) {
@@ -134,14 +156,20 @@ async function getPops() {
     const totals = sortObjEntries(unsortedTotals)
 
     output[systemName].sealTotals = totals
-
-    // get combined box count totals
   }
 
   output.sealTotals = Object.keys(output).reduce((acc, system) => {
     for (const sealGrade in output[system].sealTotals) {
       acc[sealGrade] = acc[sealGrade] || 0
       acc[sealGrade] += output[system].sealTotals[sealGrade]
+    }
+    return acc
+  }, {})
+
+  output.boxTotals = Object.keys(output).reduce((acc, system) => {
+    for (const boxGrade in output[system].boxTotals) {
+      acc[boxGrade] = acc[boxGrade] || 0
+      acc[boxGrade] += output[system].boxTotals[boxGrade]
     }
     return acc
   }, {})
